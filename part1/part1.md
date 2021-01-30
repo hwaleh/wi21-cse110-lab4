@@ -39,5 +39,21 @@ Q14:
 - g: 3undefined. Since 3 is a string and addition is occuring, the operands are concatenated.
 - h: NaN. Similar to part b, arithmetic occurs. Since undefined=NaN, any arithmetic with undefined=NaN.
 
+Q15:
+- a: true. '2' is converted to a number.
+- b: false. Since they are both strings, the first letter is comapred, and since 1 comes before 2 in the dictionary, it is false.
+- c: true. The string is converted into a number.
+- d: false. Since this check does not convert, they are not equal because they are different types.
+- e: false. true evaluates to 1, so they are unequal.
+- f: true. The Boolean() function turns the 2 into true.
+
+Q16: '===' compares without doing any type conversion, whereas the '==' does convert.
+
+Q17: It prints 'How are you' because true converts to 1 in the first condition and nonzero values count as true.
+
+Q19: It returns nothing because the return value for modifyArray is a const.
+
+Q20: 1 4 3 2.
+
 
 
